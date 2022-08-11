@@ -1,7 +1,6 @@
 package natanvidori.com.github.udemyspringbootexpert;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,9 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UdemySpringBootExpertApplication {
 
-	@Autowired
-	@Qualifier("applicationName")
-	private String applicationName;
+    @Value("${aplication.name}")
+    private String applicationName;
 
 	@GetMapping("/name")
 	public String applicationName() {
