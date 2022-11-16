@@ -1,4 +1,4 @@
-package natanvidori.com.github.udemyspringbootexpert.Configuration;
+package natanvidori.com.github.udemyspringbootexpert.Configuration.Animal;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

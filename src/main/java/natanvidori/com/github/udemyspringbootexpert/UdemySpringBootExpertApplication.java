@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import natanvidori.com.github.udemyspringbootexpert.Configuration.Animal;
-import natanvidori.com.github.udemyspringbootexpert.Configuration.Cat;
+import natanvidori.com.github.udemyspringbootexpert.Configuration.Animal.Animal;
+import natanvidori.com.github.udemyspringbootexpert.Configuration.Animal.Cat;
 
 @SpringBootApplication
 @RestController

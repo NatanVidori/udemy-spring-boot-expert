@@ -1,4 +1,4 @@
-package natanvidori.com.github.udemyspringbootexpert.Configuration;
+package natanvidori.com.github.udemyspringbootexpert.Configuration.Animal;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
